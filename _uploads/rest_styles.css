@@ -1,0 +1,234 @@
+body {background-image: url("./images/background.png");
+      background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
+  
+}
+
+li {list-style: square;
+padding: 10px;}
+
+.float { border:5px ridge #A99260;
+color: #A99260;
+float: left;
+margin: 10px 20px 10px 20px;
+}
+
+.clear { clear: both;
+}
+/* start of Nav Bar CSS */
+	.nav {
+    text-align: center ;
+	padding: 10px;
+
+	}
+
+	.videobtn {
+ 
+    background:url(./images/Videobutton.png) no-repeat;
+    cursor:pointer;
+    border:none;
+    width:140px;
+    height:70px;
+	transition: all 0.5s;
+	cursor: pointer;
+	} 
+
+	.videobtn:hover
+	{
+	background: url(./images/Videobuttonhover.png)
+	}
+
+	.imagebtn {
+ 
+    background:url(./images/Imagebutton.png) no-repeat;
+    cursor:pointer;
+    border:none;
+    width:140px;
+    height:70px;
+	transition: all 0.5s;
+	cursor: pointer;
+	} 
+
+	.imagebtn:hover
+	{
+	background: url(./images/Imagebuttonhover.png)
+	}
+
+	.podcastbtn {
+ 
+    background:url(./images/Podcastbutton.png) no-repeat;
+    cursor:pointer;
+    border:none;
+    width:140px;
+    height:70px;
+	transition: all 0.5s;
+	cursor: pointer;
+	} 
+
+	.podcastbtn:hover
+	{
+  background: url(./images/Podcastbuttonhover.png)
+	}
+
+	.homebtn {
+ 
+    background:url(./images/Homebutton.png) no-repeat;
+    cursor:pointer;
+    border:none;
+    width:140px;
+    height:70px;
+	transition: all 0.5s;
+  cursor: pointer;
+	} 
+
+	.homebtn:hover
+	{
+	background: url(./images/Homebuttonhover.png)
+	}
+/* end of nav bar css */
+
+#Content {background-image: url("./images/skulls.png");
+ border-radius: 10px;
+ border-style: ridge;
+border-width: 5px;
+border-color: #A99260;
+padding: 10px;
+}
+#wrapper {
+border-radius: 10px;
+background-color: #041E42;
+border-style: ridge;
+border-width: 5px;
+border-color: #A99260;
+padding: 10px;
+width: 60%;
+margin-left: auto;
+margin-right: auto;}
+
+
+
+#current {
+	background-color: yellow;
+} 
+
+
+h2{ color: red;
+}
+  
+header {
+text-align: center}
+
+hr {border:none;
+background-color: #A99260;
+height: 6px;}
+
+h3 {color: Red;
+font-family: white;}
+
+h4 {color: orange;
+font-style: italic;
+}
+
+#content:link {
+    color: green;
+}
+#content:visited {
+    color: red;
+}
+
+caption {caption-side: bottom;
+text-align: left;
+color: white;
+}
+table { border: 7px ridge orange;
+border-spacing: 0;
+margin-left:auto; 
+margin-right:auto;
+
+}
+th {
+background-color: green;
+color: white;
+padding: 10px;
+
+}
+tr:first-of-type th{color: green;
+Background-color: yellow; 
+border-bottom: 5px ridge orange;
+}
+
+tr:nth-of-type(even) td{ background-color: #339933; }
+tr:nth-of-type(odd) td{ background-color: #66FF33; }
+
+td { 
+	background-color: white;
+	color: white;
+padding: 10px;
+text-align: center;
+}
+
+form { 
+
+	
+	
+	margin: 0 auto;
+	width: 30%;
+	background-color: #041E42;
+	border: 5px ridge #A99260;
+	padding: 10px ;	
+	text-align: center;
+
+
+	}
+	
+form label{
+
+display: inline-block;
+
+width: 100px;
+
+font-weight: bold;
+font-family: futura;
+
+color: white;
+}
+
+	
+	h1 { color: Red;
+	}
+	
+	fieldset {background-color: #041E42;
+	border: 5px ridge #A99260;
+	}
+	#checkbox {display: inline-block;
+	
+	}
+	
+	#radiobox { display:inline-block;
+	}
+	
+	legend {font-family: Aharoni;
+	color: Red;
+	padding: 10px;
+	}
+	
+	label {
+    display: inline-block;
+	width: 50%;
+	}
+	input, textarea, select { 
+	width: 40%;
+	}
+	
+	#submit {text-align: center;
+    
+	}
+	
+	
+	
+
+	
+#submit input { 
+width: 30%;
+}
